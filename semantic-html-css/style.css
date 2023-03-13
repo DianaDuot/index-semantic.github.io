@@ -1,0 +1,110 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+header {
+    background-color: blue;
+}
+nav {
+    background-color: lightblue;
+    font-size: 1.5em;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+}
+main {
+    background-color: #ff2;
+}
+.section1 {
+    background-color: pink;
+    z-index: 1;  
+    padding-bottom: 25%;
+}
+aside {
+    padding-bottom: 23.2%;
+    background-color: red;
+    width: 30%;
+    float: right;
+    text-align: left;
+    z-index: 3;  
+}
+h3 {
+    text-align:center;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.article1 {
+    margin: 0;
+    background-color: green;
+    padding-bottom: 12.5%;
+    z-index: 2;  
+}
+.section2 {
+    background-color: gray;
+    height: 20%; 
+    margin:0 5%
+}
+.image1 {
+    float: left;
+    width: 200px;
+    height: 210px;
+}
+.article2 {
+    margin: 0;
+    background-color: green;
+    padding-bottom: 1%;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.article3 {
+    margin: 0;
+    background-color: green;
+    padding-bottom: 1%;
+}
+.image2 {
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+.section3 {
+    background-color: white;
+    padding-bottom: 12%;
+}
+.copyright {
+    background-color: black;
+    padding-bottom: 1em;
+    color: white;
+    padding-top: 0.5em;
+}
